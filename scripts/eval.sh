@@ -11,6 +11,6 @@ python main_finetune.py \
   --eval_data_path /kaggle/input/real-fake-dataset/Real_fake_dataset \
   --batch_size 16 \
   --num_workers 0 \
-  --resume /kaggle/input/model_sd/sd14_train.pth \
+  --resume /kaggle/input/model-sd/sd14_train.pth \
   --output_dir results/sd14_train \
   ${PY_ARGS}
