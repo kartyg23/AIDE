@@ -1,0 +1,3 @@
+/content/drive/MyDrive/model/sd14_train.pth model testing on...
+testset,accuracy,avg precision
+small_test,0.65,0.8973856209150327
