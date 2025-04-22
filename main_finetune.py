@@ -321,7 +321,7 @@ def main(args):
         #     vals = ["progan", "stylegan", "biggan", "cyclegan", "stargan", "gaugan", "stylegan2", "whichfaceisreal", "ADM", "Glide", "Midjourney", "stable_diffusion_v_1_4", "stable_diffusion_v_1_5", "VQDM", "wukong", "DALLE2"]
         # if len(vals) == 8:
         #     vals = ["Midjourney", "stable_diffusion_v_1_4", "stable_diffusion_v_1_5", "ADM", "glide", "wukong", "VQDM", "BigGAN"]
-        vals = ["train"]
+        vals = ["test"]
         eval_data_path = args.eval_data_path
         # print("hello")
         rows = [["{} model testing on...".format(args.resume)],

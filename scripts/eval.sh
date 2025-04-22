@@ -8,7 +8,7 @@ python main_finetune.py \
   --epochs 5 \
   --device cuda:0 \
   --eval True \
-  --eval_data_path /kaggle/input/real-fake-dataset/Real_fake_dataset \
+  --eval_data_path /kaggle/input/chameleon/Chameleon \
   --batch_size 16 \
   --num_workers 0 \
   --resume /kaggle/input/model-sd/sd14_train.pth \
